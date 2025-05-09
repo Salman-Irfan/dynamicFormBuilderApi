@@ -85,7 +85,6 @@ MONGO_URI=mongodb+srv://user:pass@cluster.mongodb.net/db</code></pre>
   <tr><td>GET</td><td>/api/v1/form/get-all-forms</td><td>Fetch all forms</td></tr>
   <tr><td>POST</td><td>/api/v1/form/submit-response</td><td>Submit form response</td></tr>
   <tr><td>GET</td><td>/api/v1/form/get-all-form-responses</td><td>Get all submitted responses</td></tr>
-  <tr><td>GET</td><td>/api/v1/form/:formId/:companyId/pending-users</td><td>List users who haven't responded</td></tr>
 </table>
 
 <hr />
