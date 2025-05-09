@@ -3,6 +3,7 @@ import { createFormController } from "../../../../controllers/apiControllers/v1C
 import { getAllFormsController } from "../../../../controllers/apiControllers/v1Controllers/formControllers/getAllFormsController.js";
 import { submitFormResponseController } from "../../../../controllers/apiControllers/v1Controllers/formControllers/submitFormResponseController.js";
 import { getAllFormResponsesController } from "../../../../controllers/apiControllers/v1Controllers/formControllers/getAllFormResponsesController.js";
+import { getPendingUsersController } from "../../../../controllers/apiControllers/v1Controllers/formControllers/getPendingUsersController.js";
 
 export const formRouter = express.Router();
 
@@ -17,3 +18,6 @@ formRouter.post("/submit-response", submitFormResponseController)
 
 // route to get all form responses
 formRouter.get("/get-all-form-responses", getAllFormResponsesController);
+
+// route to get pending user responses
+formRouter.get("/get-pending-users/:formId/:companyId", getPendingUsersController)
