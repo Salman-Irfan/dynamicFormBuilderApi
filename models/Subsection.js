@@ -7,4 +7,4 @@ const subsectionSchema = new mongoose.Schema({
     timestamps: true,
 });
 
-export const Subsection = mongoose.model("subsections", subsectionSchema);
+export const Subsection = mongoose.model("Subsection", subsectionSchema);

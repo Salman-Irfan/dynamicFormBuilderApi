@@ -18,4 +18,4 @@ const userFormResponseSchema = new mongoose.Schema(
   }
 );
 
-export const UserFormResponse = mongoose.model("userformresponses", userFormResponseSchema);
+export const UserFormResponse = mongoose.model("UserFormResponse", userFormResponseSchema);
