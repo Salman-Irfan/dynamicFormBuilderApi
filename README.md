@@ -1,4 +1,4 @@
-<h1>📘 Dynamic Form Management API (Node.js + Express + MongoDB)</h1>
+<h1>Dynamic Form Management API (Node.js + Express + MongoDB)</h1>
 
 <p>
   This backend system enables creation, assignment, and tracking of dynamic forms 
